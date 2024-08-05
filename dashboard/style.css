@@ -1,0 +1,107 @@
+body{
+    background-color:rgb(235,240,244) !important;
+}
+ .dashboard-content{
+     width:100%;
+ }
+
+ .main-content{
+     width:100%;
+     height:auto;
+     postion:relative;
+     margin-top:55px;
+     left:0px;
+     border:2px solid green;
+ }
+ .link{
+    color:whitesmoke;
+    border:2px solid green;
+ }
+ .website-content{
+    width:100%;
+    padding:0px 14px;
+    background-color:rgb(235,240,244);
+    width:calc(100% - 240px);
+    float:right;
+}
+.website-content-header{
+    width: 100%;
+    display:flex;
+    justify-content:space-between;
+    /* border:2px solid red; */
+    align-items:center;
+    padding:6px 0px;
+}
+.website-content-header h2,.votes-tally h2{
+    font-weight:500;
+    color:rgba(0,0,0,0.7);
+}
+
+        .website-content-links{
+            /* border:1px solid red; */
+            display:flex;
+            align-items:center;
+            gap:15px;
+            font-size:13px;
+
+        }
+        .website-content-links a{
+            color:rgba(0,0,0,0.8);
+            font-weight:500;
+        }
+
+
+
+        .heading{
+    margin-bottom: 20px;
+}
+.heading h2 {
+    font-size: 25px;
+    position: relative;
+    display: inline;
+    margin-bottom: 10px;
+    /* color:; */
+
+}
+.heading h2::after{
+    display: block;
+    content: "";
+    position: absolute;
+    width: 50px;
+    bottom: 0px;
+    right: 0px;
+    height:3px;
+    background-color: #4070F4;
+}
+.heading p {
+    font-size: 13px;
+    color:grey;
+    font-weight: 500;
+    margin-bottom: 5px;    
+}
+.col{
+    width:100%;
+    display:flex;
+    gap:20px;
+    margin-bottom:20px;   
+}
+.col input{
+    width:50%;
+    padding:9px 15px;
+    outline:none;
+    border:1px solid rgba(0,0,0,0.2);
+    font-size: 16px;
+    font-weight: 500;
+    color:rgba(0,0,0,0.8);
+    
+}
+.col input::focus{
+    border:2px solid rgba(0,0,0,0.4);
+}
+
+.col-address input{
+    width:100%;
+}
+input[type='file']{
+   width: 60%;
+}
